@@ -17,5 +17,9 @@
     So,here the padding is 30px. So, by the rules,30*2=60px,so,the width is width:240px;
 
     */
+    border: 10px solid red;
+    margin: 20px;
+    outline: 5px dotted green;
+    display:inline-block;
 }
 
