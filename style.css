@@ -10,6 +10,12 @@
     color: white;
     
     padding: 30px;
-    /*After giving 30px padding,the default width height got increased!!*/
+    /*After giving 30px padding,the default width got increased!!
+
+    **Giving Padding to a container,the conatiner's default dimension will change,so if the original dimension need to maintain after giving the padding,there should appy a rules & the rules is at first check the amount of padding and multiply the amount by 2 and minus the doubled amount unit from the default width
+
+    So,here the padding is 30px. So, by the rules,30*2=60px,so,the width is width:240px;
+
+    */
 }
 

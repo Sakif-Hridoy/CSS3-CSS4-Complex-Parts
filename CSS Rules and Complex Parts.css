@@ -2,8 +2,10 @@
 
 /*
 
-Width = Actual Width + Left Margin + Right Margin + Left Padding + Right Padding
+**Width = Actual Width + Left Margin + Right Margin + Left Padding + Right Padding
 
-height = Actual Height + Top Margin + Bottom Margin + Top Padding + Botttom Padding
+**height = Actual Height + Top Margin + Bottom Margin + Top Padding + Botttom Padding
+
+**Giving Padding to a container,the conatiner's default dimension will change,so if the original dimension need to maintain after giving the padding,there should appy a rules & the rules is at first check the amount of padding and multiply the amount by 2 and minus the doubled amount unit from the default width
 
 */
