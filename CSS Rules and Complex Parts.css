@@ -9,5 +9,6 @@
 **Giving Padding to a container,the conatiner's default dimension will change,so if the original dimension need to maintain after giving the padding,there should appy a rules & the rules is at first check the amount of padding and multiply the amount by 2 and minus the doubled amount unit from the default width
 
 **To keep original width of a box content,a property is must be used that is box-sizing:border box
+**Anykind of heght and width will not effect in inline elements but will effect inline blobk elements
 
 */
