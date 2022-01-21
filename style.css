@@ -49,6 +49,7 @@
     
 }
 
+
 /*To keep original width of a box content,a property is must be used that is box-sizing:border box*/
 .demo2{
     box-sizing: border-box;
@@ -100,6 +101,32 @@
 .space{
     padding:50px
 }
+
+#demo{
+    width: 400px;
+    height: 100px;
+    background: blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#demo h1{
+    display:none;
+}
+
+#demo4{
+    width: 400px;
+    height: 100px;
+    background: blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#demo4 h1{
+    visibility: hidden;
+}
+
+
 
 
 
