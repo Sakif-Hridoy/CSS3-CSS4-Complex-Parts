@@ -3,23 +3,104 @@
     padding: 0;
 }
 
+/*
 .demo{
-    width:300px;
+    /* width:300px;
     height: 100px;
     background: #000;
     color: white;
     
-    padding: 30px;
-    /*After giving 30px padding,the default width got increased!!
+    padding: 30px; */
+    /*After giving 30px padding,the default width got increased!! */
 
-    **Giving Padding to a container,the conatiner's default dimension will change,so if the original dimension need to maintain after giving the padding,there should appy a rules & the rules is at first check the amount of padding and multiply the amount by 2 and minus the doubled amount unit from the default width
+    /*Giving Padding to a container,the conatiner's default dimension will change,so if the original dimension need to maintain after giving the padding,there should apply a rules & the rules is at first check the amount of padding and multiply the amount by 2 and minus the doubled amount unit from the default width*/
 
-    So,here the padding is 30px. So, by the rules,30*2=60px,so,the width is width:240px;
+    /*So,here the padding is 30px. So, by the rules,30*2=60px,so,the width is width:240px;*/
 
-    */
+    
+
+    /*
     border: 10px solid red;
     margin: 20px;
     outline: 5px dotted green;
     display:inline-block;
+    
+    
+} */
+
+.demo{
+    width:300px;
+    height: 100px;
+    background: #000;
+    color: white; 
+    border: 10px solid red;
+    
+    
 }
+
+.demo1{
+    width:300px;
+    height: 100px;
+    background: #000;
+    color: white;
+    padding: 35px; 
+    border: 10px solid red;
+    
+    
+}
+
+/*To keep original width of a box content,a property is must be used that is box-sizing:border box*/
+.demo2{
+    box-sizing: border-box;
+    width:300px;
+    height: 100px;
+    background: #000;
+    color: white;
+    padding: 35px; 
+    border: 10px solid red;
+}
+
+.outer{
+    width: 300px;
+    height: 300px;
+    background: red;
+    font-size: 20px;
+}
+
+.inner{
+    width: 100%;
+    height: 50%;
+    background: yellow;
+    /* For giving padding and content-box property,the inner box is displaying outside of parent(outer) div */
+    padding: 20%;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+/*Outer Problem Fixed*/
+.outer1{
+    width: 300px;
+    height: 300px;
+    background: red;
+    font-size: 20px;
+}
+
+.inner1{
+    width: 70%;
+    height: 50%;
+    background: yellow;
+    padding: 20%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    /*This margin property takes the content to the center*/
+    margin: 0 auto;
+}
+
+.space{
+    padding:50px
+}
+
+
+
 
